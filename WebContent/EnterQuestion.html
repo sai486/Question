@@ -1,0 +1,83 @@
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+
+ 
+
+table,th,td {
+
+ 
+
+border: 1px solid black;
+border-collapse: collapse;
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: center;
+
+ 
+
+}
+
+ 
+
+ 
+
+</style>
+</head>
+<body>
+
+ 
+
+<form action="Addquestion">    
+
+ 
+
+    <h2 style= "text-align: center; text-decoration: underline;" >In this page you can add new questions</h2><br>
+    
+    <table style="  border: 1 solid black; cellpadding:20px;">
+    
+        <tr>
+            <td><label id="top">Enter the Full question here :</label></td>        
+            <td><textarea name="question" rows="5" cols="70" id="box" placeholder="Question"></textarea></td>    
+        </tr>
+        <tr>
+            <td>Enter 1<sup>st</sup> Answer : </td>
+            <td><textarea rows="2" cols="70" name="first" placeholder="First Option"></textarea><br></td>                
+        </tr>
+        <tr>
+            <td>Enter 2<sup>nd</sup> Answer : </td>
+            <td><textarea rows="2" cols="70" name="second" placeholder="Second Option"></textarea><br></td>        
+        </tr>
+        <tr>
+            <td>Enter 3<sup>rd</sup> Answer : </td>
+            <td><textarea rows="2" cols="70" name="third" placeholder="Third Option"></textarea><br></td>        
+        </tr>
+        <tr>
+            <td>Enter 4<sup>th</sup> Answer : </td>
+            <td><textarea rows="2" cols="70" name="forth" placeholder="Forth Option"></textarea><br></td>        
+        </tr>
+        <tr>
+            <td>Which Among the options in correct Answer</td>
+            <td>
+                <input type="radio" name="answer" value="1">1</label>
+                <input type="radio" name="answer" value="2">2</label>
+                <input type="radio" name="answer" value="3">3</label>
+                <input type="radio" name="answer" value="4">4</label>
+            </td>
+        </tr>
+        <tr> <td colspan="2"><input type="submit" value="Add New Question"> </td></tr>
+    
+    </table>
+    
+
+ 
+
+
+</form>
+
+ 
+
+</body>
+</html>
